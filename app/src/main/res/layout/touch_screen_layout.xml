@@ -50,9 +50,7 @@
             android:layout_height="wrap_content"
             android:text="CheckBox"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/checkBox4"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/checkBox"
             app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
         <CheckBox
@@ -61,9 +59,7 @@
             android:layout_height="wrap_content"
             android:text="CheckBox"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/checkBox3"
+            app:layout_constraintStart_toStartOf="@+id/checkBox2"
             app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
     </android.support.constraint.ConstraintLayout>
 
