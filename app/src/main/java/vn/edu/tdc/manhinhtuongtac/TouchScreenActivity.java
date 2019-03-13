@@ -9,5 +9,6 @@ public class TouchScreenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.touch_screen_layout);
+
     }
 }
