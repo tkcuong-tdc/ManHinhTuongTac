@@ -8,6 +8,7 @@
     tools:context="vn.edu.tdc.manhinhtuongtac.TouchScreenActivity">
 
     <LinearLayout
+        android:id="@+id/groupView1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -16,6 +17,7 @@
     </LinearLayout>
 
     <android.support.constraint.ConstraintLayout
+        android:id="@+id/groupView2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="4"
@@ -23,47 +25,48 @@
 
 
         <CheckBox
-            android:id="@+id/checkBox"
+            android:id="@+id/chkA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CheckBox"
-            app:layout_constraintBottom_toTopOf="@+id/checkBox3"
-            app:layout_constraintEnd_toStartOf="@+id/checkBox2"
+            android:text="@string/chkA"
+            app:layout_constraintBottom_toTopOf="@+id/chkC"
+            app:layout_constraintEnd_toStartOf="@+id/chkB"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <CheckBox
-            android:id="@+id/checkBox2"
+            android:id="@+id/chkB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CheckBox"
-            app:layout_constraintBottom_toTopOf="@+id/checkBox4"
+            android:text="@string/chkB"
+            app:layout_constraintBottom_toTopOf="@+id/chkD"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/checkBox"
+            app:layout_constraintStart_toEndOf="@+id/chkA"
             app:layout_constraintTop_toTopOf="parent" />
 
         <CheckBox
-            android:id="@+id/checkBox3"
+            android:id="@+id/chkC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CheckBox"
+            android:text="@string/chkC"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/checkBox"
-            app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+            app:layout_constraintStart_toStartOf="@+id/chkA"
+            app:layout_constraintTop_toBottomOf="@+id/chkA" />
 
         <CheckBox
-            android:id="@+id/checkBox4"
+            android:id="@+id/chkD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CheckBox"
+            android:text="@string/chkD"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/checkBox2"
-            app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+            app:layout_constraintStart_toStartOf="@+id/chkB"
+            app:layout_constraintTop_toBottomOf="@+id/chkB" />
     </android.support.constraint.ConstraintLayout>
 
     <LinearLayout
+        android:id="@+id/groupView3"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"

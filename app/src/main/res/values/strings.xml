@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ManHinhTuongTac</string>
+    <string name="chkA">Giá trị A</string>
+    <string name="chkB">Giá trị B</string>
+    <string name="chkC">Giá trị C</string>
+    <string name="chkD">Giá trị D</string>
 </resources>
